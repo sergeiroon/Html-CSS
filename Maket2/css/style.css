@@ -1,0 +1,281 @@
+﻿
+@font-face {
+    
+font-family: Lato;
+    
+src: url('../fonts/latoregular.woff2') format('woff2'), 
+url('../fonts/latoregular.woff') format('woff'), 
+url('../fonts/latoregular.ttf') format('truetype');
+ 
+
+}
+
+
+body{
+background-color: #f7f9fc;
+margin: 0 auto;
+max-width:1400px;
+}
+.header{
+margin-right:225px;
+margin-left:225px;
+margin-top:80px;
+margin-bottom:80px;
+}
+.progress-bar{
+width:100%;
+height:9px;
+margin:0px;
+}
+.nav-menu{
+float:right;
+display: inline-block;
+}
+.href{
+text-decoration:none;
+font-family:'Lato';
+}
+.href_nav-menu{
+color:#000000;
+}
+.href_nav-menu:active{
+color:#5c6bc0;
+}
+.href_nav-menu_disabilide{
+color:#cccccc;
+pointer-events: none; 
+    cursor: default;
+}
+.href_nav-menu:after{
+display: block;
+    content: "";
+    height: 5px;
+    width: 0%;
+    background-color: #6666cc;
+    transition: width .3s ease-in-out;
+}
+.href_nav-menu:hover:after,
+.href_nav-menu:focus:after{
+width: 100%;
+}
+.href_text{
+color: #6666cc;
+}
+.img-search:hover{
+src="images/search-hover.png"
+}
+.ul{
+text-align:center;
+}
+.ul_YPE{
+
+float:right;
+padding-right:110px;
+margin:0;
+}
+.li{
+display: inline-block;
+list-style:none;
+font-size:16pt;
+font-weight: 600;
+padding-left:30px;
+}
+.li_YPE{
+font-size:12pt;
+font-weight:400;
+padding-left:10px;
+}
+.li_footer{
+padding-left:40px;
+}
+.li_sozial{
+padding:0;
+margin-left:0;
+}
+.main{
+
+margin-right:225px;
+margin-left:225px;
+}
+.section{
+background:#ffffff;
+margin-top:30px;
+margin-bottom:30px;
+overflow:hidden;
+}
+.paragraph{
+font-family:'Lato';
+
+}
+.paragraph_date{
+
+font-size:14pt;
+color:#cccccc;
+font-style:bold;
+padding-top:70px;
+padding-left:110px;
+
+}
+.paragraph_header{
+
+font-size:28pt;
+font-weight: 600;
+
+padding-left:110px;
+padding-right:110px;
+}
+.paragraph_top-article{
+color:#cccccc;
+font-style:normal;
+font-size:16pt;
+padding-left:110px;
+padding-right:110px;
+margin-bottom:20px;
+   line-height: 1.5;
+}
+.paragraph_article{
+font-style:normal;
+font-size:12pt;
+padding-left:110px;
+padding-right:110px;
+margin-bottom:50px;
+   line-height: 1.5;
+}
+.paragrph_read-more{
+font-size:21pt;
+color:#6666cc;
+}
+.read-more{
+padding-bottom:70px;
+float:left;
+}
+.href_read-more{
+color:#6666cc;
+font-weight: 600;
+padding: 11px;
+font-size:16pt;
+margin-left:99px;
+margin-top:29px;
+margin-bottom:100px;
+}
+.href_read-more:hover{
+color:#6666cc;
+border: 1px solid #cccccc;
+    padding: 10px;
+}
+.href_read-more:active{
+border: 1px solid #6666cc;
+padding: 10px;
+color:#6666cc;
+
+}
+.href_YPE{
+color:#cccccc;
+}
+
+.href_YPE:hover{
+color:#6666cc;
+text-decoration:underline;
+}
+.href_YPE:active{
+text-decoration: none;
+color:#6666cc;
+}
+
+.href_i-do-travel{
+padding: 10px;
+background-color:#5c6bc0;
+color:#ffffff;
+margin-top:30px;
+display:block;
+float:right;
+}
+.href_i-do-travel:hover{
+
+background-color:#6c79c6;
+ padding: 12px;
+}
+.href_i-do-travel:active{
+background-color:#5360ac;
+ padding: 12px;
+
+}
+.footer{
+background:#5c6bc0;
+height:530px;
+}
+.nav-menu_footer{
+padding-bottom:65px;
+}
+.p_footer{
+font-size:42pt;
+font-weight: 600;
+font-family:'Lato';
+font-style:italic;
+text-align:center;
+margin:0;
+padding-top:65px;
+padding-bottom:65px;
+color:#4a569a;
+}
+.href_nav-menu-footer{
+color:#ffffff;
+}
+.href_nav-menu-footer:active{
+color:#ffffff;
+}
+
+.href_nav-menu-footer:after{
+display: block;
+    content: "";
+    height: 2px;
+    width: 0%;
+    background-color: #ffffff;
+    transition: width .3s ease-in-out;
+}
+.href_nav-menu-footer:hover:after,
+.href_nav-menu-footer:focus:after{
+width: 100%;
+}
+.paragraph_footor-text{
+color:#cccccc;
+text-align:center;
+font-size:13pt;
+}
+.paragraph_article-center{
+font-style:normal;
+font-size:12pt;
+padding-left:130px;
+padding-right:130px;
+margin-bottom:30px;
+   line-height: 1.5;
+color:#cccccc;
+}
+.hr{
+ background-color:#5765b5;
+height:3px;
+border:0;
+width:870px;
+}
+.hr_article{
+background-color:#cccccc;
+height:3px;
+border:0;
+margin-left:110px;
+margin-right:110px;
+}
+.href-sozial{
+margin-left:30px;
+padding:10px;
+}
+.href-sozial:hover{
+background-color:#6c79c6;
+ padding:10px;
+}
+.img{
+width:100%;
+}
+.img-sep11{
+float:left;
+margin-left:110px;
+}
